@@ -2,7 +2,7 @@
  * Copyright (C) 2018 Jeebiz (http://jeebiz.net).
  * All Rights Reserved. 
  */
-package com.github.hiwepy.fastxls.spring.boot;
+package io.github.hiwepy.fastxls.spring.boot;
 
 import org.apache.commons.lang3.SystemUtils;
 import org.springframework.boot.context.properties.ConfigurationProperties;
