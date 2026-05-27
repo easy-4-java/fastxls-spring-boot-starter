@@ -2,20 +2,20 @@
  * Copyright (C) 2018 Jeebiz (http://jeebiz.net).
  * All Rights Reserved. 
  */
-package com.github.hiwepy.fastxls.spring.boot;
+package io.github.hiwepy.fastxls.spring.boot;
 
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import com.github.hiwepy.fastxls.poi.POIWorkbookConverter;
-import com.github.hiwepy.fastxls.poi.POIWorkbookCopyer;
-import com.github.hiwepy.fastxls.poi.POIWorkbookExtractor;
-import com.github.hiwepy.fastxls.poi.POIWorkbookFiller;
-import com.github.hiwepy.fastxls.poi.POIWorkbookMapper;
-import com.github.hiwepy.fastxls.poi.POIWorkbookReader;
-import com.github.hiwepy.fastxls.poi.POIWorkbookWriter;
+import io.github.hiwepy.fastxls.poi.POIWorkbookConverter;
+import io.github.hiwepy.fastxls.poi.POIWorkbookCopyer;
+import io.github.hiwepy.fastxls.poi.POIWorkbookExtractor;
+import io.github.hiwepy.fastxls.poi.POIWorkbookFiller;
+import io.github.hiwepy.fastxls.poi.POIWorkbookMapper;
+import io.github.hiwepy.fastxls.poi.POIWorkbookReader;
+import io.github.hiwepy.fastxls.poi.POIWorkbookWriter;
 
 @Configuration
 @ConditionalOnClass({POIWorkbookConverter.class, POIWorkbookCopyer.class, POIWorkbookExtractor.class, 
