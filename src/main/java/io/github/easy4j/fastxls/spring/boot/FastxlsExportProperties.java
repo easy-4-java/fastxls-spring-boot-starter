@@ -2,12 +2,12 @@
  * Copyright (C) 2018 Jeebiz (http://jeebiz.net).
  * All Rights Reserved. 
  */
-package io.github.hiwepy.fastxls.spring.boot;
+package io.github.easy4j.fastxls.spring.boot;
 
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
-import io.github.hiwepy.fastxls.core.property.ExportProperties;
+import io.github.easy4j.fastxls.core.property.ExportProperties;
 
 import lombok.Getter;
 import lombok.Setter;
