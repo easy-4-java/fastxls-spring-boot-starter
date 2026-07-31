@@ -2,7 +2,7 @@
  * Copyright (C) 2018 Jeebiz (http://jeebiz.net).
  * All Rights Reserved. 
  */
-package io.github.hiwepy.fastxls.spring.boot;
+package io.github.easy4j.fastxls.spring.boot;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.biz.context.NestedMessageSource;
@@ -12,7 +12,7 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import io.github.hiwepy.fastxls.core.provider.def.DefaultValidationMessageProvider;
+import io.github.easy4j.fastxls.core.provider.def.DefaultValidationMessageProvider;
 
 @Configuration
 @ConditionalOnClass({DefaultValidationMessageProvider.class})
