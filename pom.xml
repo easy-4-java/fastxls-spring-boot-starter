@@ -10,12 +10,12 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 
-	<groupId>io.github.hiwepy</groupId>
+	<groupId>io.github.easy4j</groupId>
 	<artifactId>fastxls-spring-boot-starter</artifactId>
 	<description>Spring Boot Starter For Fastxls</description>
 	<version>3.4.x.20260527-SNAPSHOT</version>
 	<name>${project.groupId}:${project.artifactId}</name>
-	<url>https://github.com/hiwepy/${project.artifactId}</url>
+	<url>https://github.com/easy-4-java/${project.artifactId}</url>
 	<packaging>jar</packaging>
 
 	<licenses>
@@ -26,9 +26,9 @@
 	</licenses>
 
 	<scm>
-		<connection>scm:git:https:github.com/hiwepy/${project.artifactId}.git</connection>
-		<developerConnection>scm:git:https:github.com/hiwepy/${project.artifactId}.git</developerConnection>
-		<url>https:github.com/hiwepy/${project.artifactId}</url>
+		<connection>scm:git:https:github.com/easy-4-java/${project.artifactId}.git</connection>
+		<developerConnection>scm:git:https:github.com/easy-4-java/${project.artifactId}.git</developerConnection>
+		<url>https:github.com/easy-4-java/${project.artifactId}</url>
 		<tag>${project.artifactId}</tag>
 	</scm>
 
@@ -369,73 +369,73 @@
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
-				<groupId>io.github.hiwepy</groupId>
+				<groupId>io.github.easy4j</groupId>
 				<artifactId>fastxls-core</artifactId>
 				<version>${fastxls.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>io.github.hiwepy</groupId>
+				<groupId>io.github.easy4j</groupId>
 				<artifactId>fastxls-jexcel</artifactId>
 				<version>${fastxls.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>io.github.hiwepy</groupId>
+				<groupId>io.github.easy4j</groupId>
 				<artifactId>fastxls-poi</artifactId>
 				<version>${fastxls.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>io.github.hiwepy</groupId>
+				<groupId>io.github.easy4j</groupId>
 				<artifactId>fastxls-template-beetl</artifactId>
 				<version>${fastxls.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>io.github.hiwepy</groupId>
+				<groupId>io.github.easy4j</groupId>
 				<artifactId>fastxls-template-freemarker</artifactId>
 				<version>${fastxls.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>io.github.hiwepy</groupId>
+				<groupId>io.github.easy4j</groupId>
 				<artifactId>fastxls-template-httl</artifactId>
 				<version>${fastxls.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>io.github.hiwepy</groupId>
+				<groupId>io.github.easy4j</groupId>
 				<artifactId>fastxls-template-jetbrick</artifactId>
 				<version>${fastxls.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>io.github.hiwepy</groupId>
+				<groupId>io.github.easy4j</groupId>
 				<artifactId>fastxls-template-jxls1</artifactId>
 				<version>${fastxls.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>io.github.hiwepy</groupId>
+				<groupId>io.github.easy4j</groupId>
 				<artifactId>fastxls-template-jxls2</artifactId>
 				<version>${fastxls.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>io.github.hiwepy</groupId>
+				<groupId>io.github.easy4j</groupId>
 				<artifactId>fastxls-template-rythm</artifactId>
 				<version>${fastxls.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>io.github.hiwepy</groupId>
+				<groupId>io.github.easy4j</groupId>
 				<artifactId>fastxls-template-thymeleaf</artifactId>
 				<version>${fastxls.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>io.github.hiwepy</groupId>
+				<groupId>io.github.easy4j</groupId>
 				<artifactId>fastxls-template-velocity</artifactId>
 				<version>${fastxls.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>io.github.hiwepy</groupId>
+				<groupId>io.github.easy4j</groupId>
 				<artifactId>fastxls-template-webit</artifactId>
 				<version>${fastxls.version}</version>
 			</dependency>
 			<!-- https://mvnrepository.com/artifact/io.github.hiwepy/spring-biz -->
 			<dependency>
-			    <groupId>io.github.hiwepy</groupId>
+			    <groupId>io.github.easy4j</groupId>
 			    <artifactId>spring-biz</artifactId>
 			    <version>${spring-biz.version}</version>
 			</dependency>
@@ -496,21 +496,21 @@
 		<!-- Compile dependencies -->
 
 		<dependency>
-			<groupId>io.github.hiwepy</groupId>
+			<groupId>io.github.easy4j</groupId>
 			<artifactId>fastxls-core</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>io.github.hiwepy</groupId>
+			<groupId>io.github.easy4j</groupId>
 			<artifactId>fastxls-jexcel</artifactId>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
-			<groupId>io.github.hiwepy</groupId>
+			<groupId>io.github.easy4j</groupId>
 			<artifactId>fastxls-poi</artifactId>
 			<scope>provided</scope>
 		</dependency>
       	<dependency>
-		    <groupId>io.github.hiwepy</groupId>
+		    <groupId>io.github.easy4j</groupId>
 		    <artifactId>spring-biz</artifactId>
 		</dependency>
 	</dependencies>
